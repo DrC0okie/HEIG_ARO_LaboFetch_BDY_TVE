@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="bca8877e132c4a3029c8ed1c8b38e731dec197b9" source="2.16.8.t" version="1.0">
+<project integrity="f3d46973b0fb0db5377972f7fbf828ea2bbd612f" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -45,6 +45,7 @@
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2">
     <tool name="Multiplexer">
+      <a name="width" val="16"/>
       <a name="enable" val="false"/>
     </tool>
     <tool name="Demultiplexer">
@@ -310,7 +311,8 @@ end TCL_Generic;
       <a name="addrWidth" val="15"/>
       <a name="dataWidth" val="16"/>
       <a name="contents">addr/data: 15 16
-2105 18d0 e014 2405 250a 1921 18*0 1968
+2005 2102 1842 1d13 e01a 27*0 2206 1e53
+d00c 13*0 2004 2180 e7cc
 </a>
       <a name="label" val="InstrMemory"/>
     </comp>
@@ -940,81 +942,107 @@ end TCL_Generic;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(1320,540)" to="(1320,560)"/>
-    <wire from="(1340,750)" to="(1450,750)"/>
-    <wire from="(370,600)" to="(550,600)"/>
-    <wire from="(850,540)" to="(910,540)"/>
-    <wire from="(1220,540)" to="(1320,540)"/>
-    <wire from="(1490,760)" to="(1530,760)"/>
-    <wire from="(510,660)" to="(550,660)"/>
-    <wire from="(510,580)" to="(550,580)"/>
-    <wire from="(1000,710)" to="(1040,710)"/>
-    <wire from="(1290,690)" to="(1290,700)"/>
-    <wire from="(510,520)" to="(550,520)"/>
-    <wire from="(850,520)" to="(960,520)"/>
+    <wire from="(920,600)" to="(970,600)"/>
+    <wire from="(580,780)" to="(580,790)"/>
+    <wire from="(700,740)" to="(750,740)"/>
+    <wire from="(630,750)" to="(680,750)"/>
+    <wire from="(440,560)" to="(490,560)"/>
+    <wire from="(910,700)" to="(970,700)"/>
+    <wire from="(990,340)" to="(1050,340)"/>
+    <wire from="(1050,650)" to="(1050,680)"/>
+    <wire from="(650,460)" to="(690,460)"/>
+    <wire from="(650,380)" to="(690,380)"/>
+    <wire from="(650,420)" to="(690,420)"/>
+    <wire from="(710,640)" to="(750,640)"/>
+    <wire from="(450,570)" to="(450,600)"/>
+    <wire from="(950,710)" to="(950,730)"/>
+    <wire from="(720,760)" to="(720,780)"/>
     <wire from="(200,180)" to="(230,180)"/>
-    <wire from="(200,120)" to="(230,120)"/>
-    <wire from="(520,540)" to="(550,540)"/>
-    <wire from="(1290,560)" to="(1290,680)"/>
-    <wire from="(910,540)" to="(1070,540)"/>
-    <wire from="(1270,630)" to="(1300,630)"/>
-    <wire from="(1270,590)" to="(1300,590)"/>
-    <wire from="(1270,570)" to="(1300,570)"/>
-    <wire from="(1270,610)" to="(1300,610)"/>
-    <wire from="(1270,650)" to="(1300,650)"/>
-    <wire from="(1270,670)" to="(1300,670)"/>
-    <wire from="(240,560)" to="(250,560)"/>
-    <wire from="(1480,130)" to="(1640,130)"/>
-    <wire from="(1480,170)" to="(1640,170)"/>
-    <wire from="(1480,210)" to="(1640,210)"/>
-    <wire from="(1480,230)" to="(1640,230)"/>
-    <wire from="(1480,250)" to="(1640,250)"/>
-    <wire from="(1480,270)" to="(1640,270)"/>
-    <wire from="(420,560)" to="(550,560)"/>
-    <wire from="(1000,680)" to="(1010,680)"/>
-    <wire from="(910,490)" to="(910,540)"/>
-    <wire from="(370,600)" to="(370,720)"/>
-    <wire from="(1110,680)" to="(1130,680)"/>
-    <wire from="(1270,680)" to="(1290,680)"/>
-    <wire from="(1270,700)" to="(1290,700)"/>
-    <wire from="(1270,560)" to="(1290,560)"/>
-    <wire from="(1040,690)" to="(1040,710)"/>
-    <wire from="(1250,720)" to="(1250,740)"/>
-    <wire from="(300,730)" to="(350,730)"/>
-    <wire from="(130,600)" to="(180,600)"/>
-    <wire from="(130,560)" to="(180,560)"/>
-    <wire from="(1030,640)" to="(1220,640)"/>
+    <wire from="(930,680)" to="(950,680)"/>
+    <wire from="(1050,290)" to="(1050,340)"/>
+    <wire from="(990,580)" to="(1010,580)"/>
+    <wire from="(720,660)" to="(750,660)"/>
+    <wire from="(350,580)" to="(370,580)"/>
+    <wire from="(470,580)" to="(490,580)"/>
+    <wire from="(990,640)" to="(1040,640)"/>
+    <wire from="(950,680)" to="(950,690)"/>
+    <wire from="(700,710)" to="(890,710)"/>
+    <wire from="(370,580)" to="(370,600)"/>
+    <wire from="(450,420)" to="(450,440)"/>
+    <wire from="(1070,630)" to="(1130,630)"/>
     <wire from="(910,90)" to="(950,90)"/>
     <wire from="(910,50)" to="(950,50)"/>
     <wire from="(910,130)" to="(950,130)"/>
+    <wire from="(700,710)" to="(700,730)"/>
+    <wire from="(790,750)" to="(810,750)"/>
+    <wire from="(950,590)" to="(970,590)"/>
+    <wire from="(950,710)" to="(970,710)"/>
+    <wire from="(930,730)" to="(950,730)"/>
+    <wire from="(1250,660)" to="(1260,660)"/>
+    <wire from="(610,650)" to="(630,650)"/>
+    <wire from="(990,640)" to="(990,680)"/>
+    <wire from="(1010,580)" to="(1010,620)"/>
+    <wire from="(1130,620)" to="(1140,620)"/>
+    <wire from="(1120,650)" to="(1130,650)"/>
+    <wire from="(480,360)" to="(690,360)"/>
+    <wire from="(510,550)" to="(530,550)"/>
+    <wire from="(370,600)" to="(450,600)"/>
+    <wire from="(1420,250)" to="(1450,250)"/>
+    <wire from="(1420,210)" to="(1450,210)"/>
+    <wire from="(1420,170)" to="(1450,170)"/>
+    <wire from="(1420,130)" to="(1450,130)"/>
+    <wire from="(1420,60)" to="(1440,60)"/>
+    <wire from="(580,790)" to="(590,790)"/>
+    <wire from="(570,780)" to="(580,780)"/>
+    <wire from="(580,800)" to="(580,810)"/>
+    <wire from="(710,610)" to="(900,610)"/>
+    <wire from="(1300,650)" to="(1340,650)"/>
+    <wire from="(650,400)" to="(690,400)"/>
+    <wire from="(650,320)" to="(690,320)"/>
+    <wire from="(570,750)" to="(570,780)"/>
+    <wire from="(1280,620)" to="(1280,630)"/>
+    <wire from="(950,610)" to="(950,630)"/>
+    <wire from="(610,780)" to="(720,780)"/>
+    <wire from="(1150,610)" to="(1150,620)"/>
+    <wire from="(350,540)" to="(390,540)"/>
+    <wire from="(990,320)" to="(1100,320)"/>
+    <wire from="(720,660)" to="(720,680)"/>
+    <wire from="(710,610)" to="(710,630)"/>
+    <wire from="(200,120)" to="(230,120)"/>
+    <wire from="(930,580)" to="(950,580)"/>
+    <wire from="(560,810)" to="(580,810)"/>
+    <wire from="(660,340)" to="(690,340)"/>
+    <wire from="(720,760)" to="(750,760)"/>
+    <wire from="(370,580)" to="(390,580)"/>
+    <wire from="(1050,340)" to="(1210,340)"/>
+    <wire from="(1170,640)" to="(1260,640)"/>
+    <wire from="(340,380)" to="(420,380)"/>
+    <wire from="(560,780)" to="(570,780)"/>
+    <wire from="(580,800)" to="(590,800)"/>
+    <wire from="(990,380)" to="(1040,380)"/>
+    <wire from="(950,580)" to="(950,590)"/>
+    <wire from="(630,650)" to="(690,650)"/>
+    <wire from="(680,680)" to="(720,680)"/>
     <wire from="(910,110)" to="(950,110)"/>
     <wire from="(910,70)" to="(950,70)"/>
     <wire from="(910,150)" to="(950,150)"/>
-    <wire from="(1030,670)" to="(1070,670)"/>
-    <wire from="(210,620)" to="(210,640)"/>
-    <wire from="(1290,700)" to="(1290,710)"/>
-    <wire from="(1290,680)" to="(1290,690)"/>
-    <wire from="(1030,640)" to="(1030,660)"/>
-    <wire from="(1250,740)" to="(1300,740)"/>
-    <wire from="(1440,770)" to="(1450,770)"/>
+    <wire from="(360,620)" to="(470,620)"/>
+    <wire from="(450,570)" to="(490,570)"/>
+    <wire from="(790,650)" to="(810,650)"/>
     <wire from="(200,250)" to="(230,250)"/>
     <wire from="(200,290)" to="(230,290)"/>
-    <wire from="(460,640)" to="(550,640)"/>
-    <wire from="(1320,730)" to="(1330,730)"/>
-    <wire from="(30,580)" to="(180,580)"/>
-    <wire from="(1270,620)" to="(1300,620)"/>
-    <wire from="(1270,580)" to="(1300,580)"/>
-    <wire from="(1270,600)" to="(1300,600)"/>
-    <wire from="(1270,640)" to="(1300,640)"/>
-    <wire from="(1270,660)" to="(1300,660)"/>
-    <wire from="(1290,700)" to="(1320,700)"/>
-    <wire from="(1040,690)" to="(1070,690)"/>
-    <wire from="(850,560)" to="(980,560)"/>
-    <wire from="(1220,540)" to="(1220,640)"/>
-    <wire from="(1480,60)" to="(1500,60)"/>
-    <wire from="(1270,690)" to="(1290,690)"/>
-    <wire from="(1270,710)" to="(1290,710)"/>
-    <wire from="(1280,760)" to="(1300,760)"/>
+    <wire from="(950,610)" to="(970,610)"/>
+    <wire from="(950,690)" to="(970,690)"/>
+    <wire from="(930,630)" to="(950,630)"/>
+    <wire from="(1010,620)" to="(1040,620)"/>
+    <wire from="(630,650)" to="(630,750)"/>
+    <wire from="(600,440)" to="(690,440)"/>
+    <wire from="(470,580)" to="(470,620)"/>
+    <wire from="(410,400)" to="(420,400)"/>
+    <wire from="(410,360)" to="(420,360)"/>
+    <wire from="(990,360)" to="(1120,360)"/>
+    <wire from="(1420,270)" to="(1450,270)"/>
+    <wire from="(1420,230)" to="(1450,230)"/>
     <comp lib="0" loc="(200,120)" name="Pin">
       <a name="width" val="16"/>
       <a name="label" val="instr_data_i"/>
@@ -1121,139 +1149,11 @@ end TCL_Generic;
     <comp lib="0" loc="(910,150)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(1480,270)" name="Tunnel">
+    <comp lib="0" loc="(350,580)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="memory_low_byte_s"/>
+      <a name="label" val="Jump_BEQ"/>
     </comp>
-    <comp lib="0" loc="(1480,210)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="memory_str_data_s"/>
-    </comp>
-    <comp lib="0" loc="(1480,170)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="memory_wr_data_s"/>
-    </comp>
-    <comp lib="0" loc="(1480,130)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="15"/>
-      <a name="label" val="memory_addr_s"/>
-    </comp>
-    <comp lib="0" loc="(1480,230)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="memory_ldr_data_s"/>
-    </comp>
-    <comp lib="8" loc="(1464,99)" name="Text">
-      <a name="text" val="Memory interface outputs"/>
-      <a name="font" val="SansSerif plain 12"/>
-    </comp>
-    <comp lib="8" loc="(1467,27)" name="Text">
-      <a name="text" val="Instruction memory outputs"/>
-      <a name="font" val="SansSerif plain 12"/>
-    </comp>
-    <comp lib="0" loc="(1500,60)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="instr_addr_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 10:59:28"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="c5f8ddff-4466-4c1e-8d94-2b6db0cdd96a"/>
-      <a name="integrity" val="2550274f8ee4622b949678c42d4c3ed8b2cfca45"/>
-    </comp>
-    <comp lib="0" loc="(1480,60)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="instr_addr_s"/>
-    </comp>
-    <comp lib="0" loc="(1480,250)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="memory_high_byte_s"/>
-    </comp>
-    <comp lib="0" loc="(1640,130)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="15"/>
-      <a name="label" val="memory_addr_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 10:59:28"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="69830d52-ba33-46dd-ac70-e7934b18d212"/>
-      <a name="integrity" val="a0822a54bec58eadc71e0a5e31c8da68c5225810"/>
-    </comp>
-    <comp lib="0" loc="(1640,170)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="memory_wr_data_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 10:59:28"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="f316191a-f106-4601-888a-b5fdf230549c"/>
-      <a name="integrity" val="16c26645966119a23bf5cbaafa4615c896fea872"/>
-    </comp>
-    <comp lib="0" loc="(1640,210)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="memory_str_data_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 11:03:41"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="84171ba9-202c-4432-81d8-c92e7526e51a"/>
-      <a name="integrity" val="4bedfce466565e8af9fe2cf676619aa6c189b801"/>
-    </comp>
-    <comp lib="0" loc="(1640,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="memory_ldr_data"/>
-      <a name="labelloc" val="east"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 11:03:41"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="e0f6a2c5-0e91-4259-af05-545c320c17ec"/>
-      <a name="integrity" val="3f3a1321a61d2f767a45d27efecc9d3894956946"/>
-    </comp>
-    <comp lib="0" loc="(1640,250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="memory_high_byte_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 11:19:37"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="c9c8a9a5-5592-4e82-81bb-052a51714a5d"/>
-      <a name="integrity" val="aecf63459c2689d8c86c1969e75b63ea79e9fc88"/>
-    </comp>
-    <comp lib="0" loc="(1640,270)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="memory_low_byte_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 11:19:37"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="f16cb508-50c3-48c8-a066-0f8ff4a7aa2f"/>
-      <a name="integrity" val="be1cb5c097230454583e549d75189dd9a5a3ab18"/>
-    </comp>
-    <comp loc="(850,520)" name="fetch"/>
-    <comp lib="0" loc="(1000,680)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="instr_data"/>
-    </comp>
-    <comp lib="0" loc="(1070,540)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="instr_data"/>
-    </comp>
-    <comp lib="3" loc="(1340,750)" name="Adder">
+    <comp lib="3" loc="(1170,640)" name="Adder">
       <a name="width" val="16"/>
       <a name="owner" val="bdy_tve"/>
       <a name="date" val="17.03.22 11:07:51"/>
@@ -1261,12 +1161,235 @@ end TCL_Generic;
       <a name="uuid" val="bd211b46-533e-44df-a517-ea9d5312e682"/>
       <a name="integrity" val="f57668837e32509d6adc1608adabe1831b5a9d82"/>
     </comp>
-    <comp lib="0" loc="(520,540)" name="Tunnel">
+    <comp lib="0" loc="(450,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="rst_s"/>
+    </comp>
+    <comp lib="0" loc="(410,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="PC_Fut"/>
+    </comp>
+    <comp lib="8" loc="(454,309)" name="Text">
+      <a name="text" val="Program counter"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1050,680)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Jump_BEQ"/>
+    </comp>
+    <comp lib="0" loc="(650,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst_s"/>
+    </comp>
+    <comp lib="0" loc="(1340,650)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="jump_addr"/>
+    </comp>
+    <comp lib="8" loc="(988,553)" name="Text">
+      <a name="text" val="Extension adresse sur 16 bits + left shift"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(530,550)" name="Tunnel">
+      <a name="width" val="7"/>
+      <a name="label" val="Fetch_ctrl_bus"/>
+    </comp>
+    <comp lib="0" loc="(930,580)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(650,420)" name="Constant">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1210,340)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="instr_data"/>
+    </comp>
+    <comp lib="0" loc="(680,750)" name="Splitter">
+      <a name="incoming" val="16"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="17.03.22 10:49:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="6c11c2ac-29d7-4f1d-81de-95434885b56f"/>
+      <a name="integrity" val="bb7f3c0840d29a711fefc5c4df61f0397dbe6b2c"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+    </comp>
+    <comp loc="(990,320)" name="fetch"/>
+    <comp lib="0" loc="(410,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_s"/>
+    </comp>
+    <comp lib="0" loc="(660,340)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="16"/>
       <a name="label" val="instr_data_s"/>
     </comp>
-    <comp lib="0" loc="(910,490)" name="Probe">
+    <comp lib="0" loc="(600,440)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_s"/>
+    </comp>
+    <comp lib="0" loc="(930,630)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="4" loc="(420,330)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="PC"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="10.03.22 10:40:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="2a8f6929-6f34-4de2-9245-24b210c67fcd"/>
+      <a name="integrity" val="e9e0cbade3a204cd0fa0061df1b0afcb0269e949"/>
+    </comp>
+    <comp lib="0" loc="(1120,650)" name="Constant">
+      <a name="width" val="16"/>
+      <a name="value" val="0x4"/>
+    </comp>
+    <comp lib="3" loc="(790,650)" name="Comparator">
+      <a name="width" val="5"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="17.03.22 10:47:01"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="e0f9b8ef-15fb-4bbe-ac53-54047b640ea2"/>
+      <a name="integrity" val="cfd0b644d7e5f3127e6d5fc6d6c20f86b00bc0fd"/>
+    </comp>
+    <comp lib="0" loc="(890,710)" name="Splitter">
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="8"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="19.03.22 10:44:17"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="03223cfb-b1aa-4942-ad2b-97522566b5b3"/>
+      <a name="integrity" val="5a4ed31efbf3a20c40a723bed18d9e3382b281b0"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+    </comp>
+    <comp lib="0" loc="(810,650)" name="Tunnel">
+      <a name="label" val="Jump_B"/>
+    </comp>
+    <comp lib="2" loc="(1070,630)" name="Multiplexer">
+      <a name="width" val="16"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="19.03.22 10:53:32"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="51d8b970-f64a-4943-921b-94e169a90c38"/>
+      <a name="integrity" val="15bab443c178133a470859f9e52c6bfdd8f82982"/>
+    </comp>
+    <comp lib="0" loc="(1120,360)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="PC_Fut"/>
+    </comp>
+    <comp lib="0" loc="(930,730)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(440,560)" name="OR Gate">
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="19.03.22 11:12:54"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="451bba89-901e-49a3-90bf-1e8ff4a0fd4a"/>
+      <a name="integrity" val="b5e5115b695d8de251fa4ce367971db25d3d3dae"/>
+    </comp>
+    <comp lib="3" loc="(790,750)" name="Comparator">
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="17.03.22 10:47:01"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="138df9f2-2f16-46ac-bea2-1803850918ea"/>
+      <a name="integrity" val="f2b255517fe7398f88b8ec8f858b595a4c2d4f71"/>
+    </comp>
+    <comp lib="0" loc="(340,380)" name="Constant"/>
+    <comp lib="0" loc="(1100,320)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="instr_addr_s"/>
+    </comp>
+    <comp lib="0" loc="(680,680)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x1c"/>
+    </comp>
+    <comp lib="0" loc="(930,680)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(990,680)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="16"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="19.03.22 10:44:17"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="12a0233e-1e7e-48d0-b3d7-5b1f9df31edc"/>
+      <a name="integrity" val="1a9f2d631fdc1c2c85af6bcf0acdfa2834eac823"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="2"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="2"/>
+    </comp>
+    <comp lib="0" loc="(650,380)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="jump_addr"/>
+    </comp>
+    <comp lib="3" loc="(1300,650)" name="Adder">
+      <a name="width" val="16"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="17.03.22 11:07:51"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="589d2271-59a4-49d4-abaf-a7a4132df06c"/>
+      <a name="integrity" val="793f8085042c97113fb6b2514f6a46bf20a3ffa6"/>
+    </comp>
+    <comp lib="0" loc="(650,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="7"/>
+      <a name="label" val="Fetch_ctrl_bus"/>
+    </comp>
+    <comp lib="8" loc="(779,585)" name="Text">
+      <a name="text" val="Détection Instruction"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(650,320)" name="Constant"/>
+    <comp lib="0" loc="(510,550)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="7"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="10.03.22 11:44:11"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="6eee94e5-c0ba-4a76-b2db-a5f4e412a4e3"/>
+      <a name="integrity" val="60a7ee65c02404860e5d78297e09986536060cde"/>
+      <a name="bit3" val="2"/>
+      <a name="bit4" val="2"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="none"/>
+    </comp>
+    <comp lib="0" loc="(1050,290)" name="Probe">
       <a name="facing" val="south"/>
       <a name="radix" val="16"/>
       <a name="labelloc" val="south"/>
@@ -1276,36 +1399,43 @@ end TCL_Generic;
       <a name="uuid" val="d71e3fd8-4279-4ec2-bb3d-17eced1158f3"/>
       <a name="integrity" val="e13ddbc8cc4f7d4e632f13aa37e9d6a34225e402"/>
     </comp>
-    <comp lib="0" loc="(1280,760)" name="Constant">
-      <a name="width" val="16"/>
-      <a name="value" val="0x4"/>
+    <comp lib="0" loc="(990,580)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="16"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="19.03.22 10:44:17"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="31d3d4c0-9cdb-48f3-8e1e-c10dd47060bb"/>
+      <a name="integrity" val="4c99ee1eafdce7d1eb6a08fc9767dec805d63803"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="2"/>
     </comp>
-    <comp lib="0" loc="(980,560)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="PC_Fut"/>
-    </comp>
-    <comp lib="0" loc="(460,640)" name="Tunnel">
+    <comp lib="0" loc="(1250,660)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="clk_s"/>
-    </comp>
-    <comp lib="0" loc="(510,580)" name="Tunnel">
-      <a name="facing" val="east"/>
       <a name="width" val="16"/>
-      <a name="label" val="jump_addr"/>
+      <a name="label" val="PC_pres"/>
     </comp>
-    <comp lib="0" loc="(960,520)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="instr_addr_s"/>
-    </comp>
-    <comp lib="0" loc="(510,660)" name="Tunnel">
+    <comp lib="0" loc="(350,540)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="rst_s"/>
+      <a name="label" val="Jump_B"/>
     </comp>
-    <comp lib="0" loc="(510,520)" name="Constant"/>
-    <comp lib="0" loc="(1130,680)" name="Tunnel">
-      <a name="label" val="jump_detect"/>
+    <comp lib="0" loc="(810,750)" name="Tunnel">
+      <a name="label" val="Jump_BEQ"/>
     </comp>
-    <comp lib="0" loc="(1010,680)" name="Splitter">
+    <comp lib="0" loc="(690,650)" name="Splitter">
       <a name="incoming" val="16"/>
       <a name="owner" val="bdy_tve"/>
       <a name="date" val="17.03.22 10:49:36"/>
@@ -1328,107 +1458,205 @@ end TCL_Generic;
       <a name="bit14" val="1"/>
       <a name="bit15" val="1"/>
     </comp>
-    <comp lib="0" loc="(1320,560)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="11"/>
+    <comp lib="0" loc="(900,610)" name="Splitter">
+      <a name="fanout" val="1"/>
       <a name="incoming" val="11"/>
       <a name="owner" val="bdy_tve"/>
-      <a name="date" val="17.03.22 11:04:18"/>
+      <a name="date" val="19.03.22 10:44:17"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="4c3b672f-977f-44db-896e-a721ef65c82a"/>
-      <a name="integrity" val="a35d9a38403f851afc23a232ecdcbf626af7a047"/>
+      <a name="uuid" val="a0962d13-036d-4e04-961e-0c029fd39203"/>
+      <a name="integrity" val="085087e32d508056790b7874a90b707e52f4fc2b"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="bit10" val="0"/>
     </comp>
-    <comp lib="0" loc="(300,730)" name="Tunnel">
+    <comp lib="0" loc="(1420,210)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="jump_detect"/>
+      <a name="label" val="memory_str_data_s"/>
     </comp>
-    <comp lib="0" loc="(370,720)" name="Splitter">
+    <comp lib="0" loc="(1420,130)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="15"/>
+      <a name="label" val="memory_addr_s"/>
+    </comp>
+    <comp lib="0" loc="(1420,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="memory_ldr_data_s"/>
+    </comp>
+    <comp lib="0" loc="(1420,60)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="instr_addr_s"/>
+    </comp>
+    <comp lib="0" loc="(1440,60)" name="Pin">
       <a name="facing" val="west"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="7"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="10.03.22 11:44:11"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="6eee94e5-c0ba-4a76-b2db-a5f4e412a4e3"/>
-      <a name="integrity" val="60a7ee65c02404860e5d78297e09986536060cde"/>
-      <a name="bit3" val="2"/>
-      <a name="bit4" val="2"/>
-      <a name="bit5" val="2"/>
-      <a name="bit6" val="none"/>
-    </comp>
-    <comp lib="0" loc="(1000,710)" name="Constant">
-      <a name="width" val="5"/>
-      <a name="value" val="0x1c"/>
-    </comp>
-    <comp lib="0" loc="(1250,720)" name="Splitter">
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="17.03.22 11:04:18"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="ef1794e2-11a7-479d-bc0c-15f1f994761d"/>
-      <a name="integrity" val="7c72f2e1660db001c16b5219b7fd036d02221515"/>
-    </comp>
-    <comp lib="3" loc="(1110,680)" name="Comparator">
-      <a name="width" val="5"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="17.03.22 10:47:01"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="e0f9b8ef-15fb-4bbe-ac53-54047b640ea2"/>
-      <a name="integrity" val="cfd0b644d7e5f3127e6d5fc6d6c20f86b00bc0fd"/>
-    </comp>
-    <comp lib="0" loc="(210,640)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="rst_s"/>
-    </comp>
-    <comp lib="4" loc="(180,530)" name="Register">
+      <a name="output" val="true"/>
       <a name="width" val="16"/>
-      <a name="label" val="PC"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="10.03.22 10:40:21"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="2a8f6929-6f34-4de2-9245-24b210c67fcd"/>
-      <a name="integrity" val="e9e0cbade3a204cd0fa0061df1b0afcb0269e949"/>
+      <a name="label" val="instr_addr_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 10:59:28"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="c5f8ddff-4466-4c1e-8d94-2b6db0cdd96a"/>
+      <a name="integrity" val="2550274f8ee4622b949678c42d4c3ed8b2cfca45"/>
     </comp>
-    <comp lib="0" loc="(30,580)" name="Constant"/>
-    <comp lib="0" loc="(130,600)" name="Tunnel">
+    <comp lib="8" loc="(1404,99)" name="Text">
+      <a name="text" val="Memory interface outputs"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1420,250)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="clk_s"/>
+      <a name="label" val="memory_high_byte_s"/>
     </comp>
-    <comp lib="0" loc="(130,560)" name="Tunnel">
+    <comp lib="0" loc="(1420,270)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="memory_low_byte_s"/>
+    </comp>
+    <comp lib="0" loc="(1420,170)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="16"/>
-      <a name="label" val="PC_Fut"/>
+      <a name="label" val="memory_wr_data_s"/>
     </comp>
-    <comp lib="0" loc="(420,560)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC_pres"/>
+    <comp lib="8" loc="(1407,27)" name="Text">
+      <a name="text" val="Instruction memory outputs"/>
+      <a name="font" val="SansSerif plain 12"/>
     </comp>
-    <comp lib="0" loc="(250,560)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="PC_pres"/>
-    </comp>
-    <comp lib="3" loc="(1490,760)" name="Adder">
-      <a name="width" val="16"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="17.03.22 11:07:51"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="589d2271-59a4-49d4-abaf-a7a4132df06c"/>
-      <a name="integrity" val="793f8085042c97113fb6b2514f6a46bf20a3ffa6"/>
-    </comp>
-    <comp lib="0" loc="(1530,760)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="jump_addr"/>
-    </comp>
-    <comp lib="0" loc="(1440,770)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC_pres"/>
-    </comp>
-    <comp lib="0" loc="(1320,700)" name="Constant">
+    <comp lib="0" loc="(1450,270)" name="Pin">
       <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="memory_low_byte_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 11:19:37"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="f16cb508-50c3-48c8-a066-0f8ff4a7aa2f"/>
+      <a name="integrity" val="be1cb5c097230454583e549d75189dd9a5a3ab18"/>
+    </comp>
+    <comp lib="0" loc="(1450,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="memory_high_byte_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 11:19:37"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="c9c8a9a5-5592-4e82-81bb-052a51714a5d"/>
+      <a name="integrity" val="aecf63459c2689d8c86c1969e75b63ea79e9fc88"/>
+    </comp>
+    <comp lib="0" loc="(1450,230)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="memory_ldr_data"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 11:03:41"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="e0f6a2c5-0e91-4259-af05-545c320c17ec"/>
+      <a name="integrity" val="3f3a1321a61d2f767a45d27efecc9d3894956946"/>
+    </comp>
+    <comp lib="0" loc="(1450,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="memory_str_data_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 11:03:41"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="84171ba9-202c-4432-81d8-c92e7526e51a"/>
+      <a name="integrity" val="4bedfce466565e8af9fe2cf676619aa6c189b801"/>
+    </comp>
+    <comp lib="0" loc="(1450,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="label" val="memory_wr_data_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 10:59:28"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="f316191a-f106-4601-888a-b5fdf230549c"/>
+      <a name="integrity" val="16c26645966119a23bf5cbaafa4615c896fea872"/>
+    </comp>
+    <comp lib="0" loc="(1450,130)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="15"/>
+      <a name="label" val="memory_addr_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 10:59:28"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="69830d52-ba33-46dd-ac70-e7934b18d212"/>
+      <a name="integrity" val="a0822a54bec58eadc71e0a5e31c8da68c5225810"/>
+    </comp>
+    <comp lib="0" loc="(560,810)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xd"/>
+    </comp>
+    <comp lib="0" loc="(570,750)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Jump_cond"/>
+    </comp>
+    <comp lib="0" loc="(560,780)" name="Constant">
+      <a name="width" val="4"/>
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(610,780)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="incoming" val="8"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="19.03.22 11:22:56"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="832efeb7-be36-4a19-b4e9-b6b6a98ac81e"/>
+      <a name="integrity" val="5c85f838abf35968e1c1f49ad35b4cf037d50187"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </comp>
+    <comp lib="0" loc="(610,650)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="instr_data"/>
+    </comp>
+    <comp lib="0" loc="(360,620)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Jump_cond"/>
+    </comp>
+    <comp lib="8" loc="(1236,596)" name="Text">
+      <a name="text" val="Calcul adresse de saut"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1280,620)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1150,610)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1040,380)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="19.03.22 11:28:42"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="c846dd27-ce79-4656-9d55-441ae3ff1c17"/>
+      <a name="integrity" val="789bae8cc1d54c330224600a2caf2992004d746d"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
@@ -1463,71 +1691,65 @@ end TCL_Generic;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(700,170)" to="(700,180)"/>
-    <wire from="(610,400)" to="(610,410)"/>
-    <wire from="(580,320)" to="(630,320)"/>
-    <wire from="(620,210)" to="(680,210)"/>
-    <wire from="(510,420)" to="(630,420)"/>
-    <wire from="(920,300)" to="(920,330)"/>
-    <wire from="(1040,220)" to="(1040,250)"/>
-    <wire from="(590,340)" to="(630,340)"/>
-    <wire from="(590,360)" to="(630,360)"/>
-    <wire from="(840,320)" to="(880,320)"/>
-    <wire from="(590,360)" to="(590,390)"/>
-    <wire from="(900,230)" to="(900,250)"/>
-    <wire from="(880,300)" to="(880,320)"/>
-    <wire from="(350,130)" to="(350,160)"/>
-    <wire from="(380,230)" to="(380,260)"/>
-    <wire from="(510,410)" to="(610,410)"/>
-    <wire from="(920,210)" to="(1030,210)"/>
-    <wire from="(720,200)" to="(890,200)"/>
-    <wire from="(600,380)" to="(600,400)"/>
-    <wire from="(200,120)" to="(230,120)"/>
-    <wire from="(200,200)" to="(230,200)"/>
-    <wire from="(200,280)" to="(230,280)"/>
-    <wire from="(200,320)" to="(230,320)"/>
-    <wire from="(200,360)" to="(230,360)"/>
-    <wire from="(200,80)" to="(230,80)"/>
-    <wire from="(510,400)" to="(600,400)"/>
-    <wire from="(200,240)" to="(360,240)"/>
-    <wire from="(460,430)" to="(490,430)"/>
-    <wire from="(610,400)" to="(630,400)"/>
-    <wire from="(350,130)" to="(380,130)"/>
-    <wire from="(350,160)" to="(380,160)"/>
-    <wire from="(690,90)" to="(720,90)"/>
-    <wire from="(200,160)" to="(350,160)"/>
-    <wire from="(380,210)" to="(400,210)"/>
-    <wire from="(600,380)" to="(630,380)"/>
-    <wire from="(860,220)" to="(890,220)"/>
-    <wire from="(1060,200)" to="(1090,200)"/>
-    <wire from="(610,190)" to="(680,190)"/>
-    <wire from="(510,390)" to="(590,390)"/>
-    <wire from="(1320,80)" to="(1340,80)"/>
-    <wire from="(1320,160)" to="(1340,160)"/>
-    <wire from="(1320,200)" to="(1340,200)"/>
-    <wire from="(1320,120)" to="(1340,120)"/>
-    <wire from="(1020,190)" to="(1030,190)"/>
-    <wire from="(380,260)" to="(450,260)"/>
-    <wire from="(380,220)" to="(450,220)"/>
-    <comp lib="0" loc="(230,200)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="branch_addr_s"/>
+    <wire from="(700,80)" to="(700,90)"/>
+    <wire from="(330,230)" to="(330,250)"/>
+    <wire from="(820,350)" to="(860,350)"/>
+    <wire from="(830,370)" to="(830,390)"/>
+    <wire from="(800,270)" to="(1100,270)"/>
+    <wire from="(1480,80)" to="(1490,80)"/>
+    <wire from="(1480,120)" to="(1490,120)"/>
+    <wire from="(1480,160)" to="(1490,160)"/>
+    <wire from="(1480,200)" to="(1490,200)"/>
+    <wire from="(840,390)" to="(860,390)"/>
+    <wire from="(880,210)" to="(900,210)"/>
+    <wire from="(900,210)" to="(920,210)"/>
+    <wire from="(300,160)" to="(330,160)"/>
+    <wire from="(330,250)" to="(360,250)"/>
+    <wire from="(700,420)" to="(730,420)"/>
+    <wire from="(750,400)" to="(840,400)"/>
+    <wire from="(830,370)" to="(860,370)"/>
+    <wire from="(750,380)" to="(820,380)"/>
+    <wire from="(1070,310)" to="(1100,310)"/>
+    <wire from="(170,240)" to="(310,240)"/>
+    <wire from="(1020,100)" to="(1030,100)"/>
+    <wire from="(750,390)" to="(830,390)"/>
+    <wire from="(850,330)" to="(860,330)"/>
+    <wire from="(710,290)" to="(720,290)"/>
+    <wire from="(710,330)" to="(720,330)"/>
+    <wire from="(840,390)" to="(840,400)"/>
+    <wire from="(900,140)" to="(900,210)"/>
+    <wire from="(350,200)" to="(350,210)"/>
+    <wire from="(1040,130)" to="(1040,160)"/>
+    <wire from="(820,350)" to="(820,380)"/>
+    <wire from="(790,190)" to="(830,190)"/>
+    <wire from="(750,410)" to="(860,410)"/>
+    <wire from="(300,130)" to="(300,160)"/>
+    <wire from="(920,120)" to="(1030,120)"/>
+    <wire from="(720,110)" to="(890,110)"/>
+    <wire from="(800,230)" to="(800,270)"/>
+    <wire from="(300,130)" to="(330,130)"/>
+    <wire from="(660,100)" to="(680,100)"/>
+    <wire from="(660,120)" to="(680,120)"/>
+    <wire from="(330,210)" to="(350,210)"/>
+    <wire from="(770,310)" to="(860,310)"/>
+    <wire from="(800,230)" to="(830,230)"/>
+    <wire from="(860,130)" to="(890,130)"/>
+    <wire from="(1060,110)" to="(1090,110)"/>
+    <wire from="(350,200)" to="(360,200)"/>
+    <wire from="(170,80)" to="(180,80)"/>
+    <wire from="(170,320)" to="(180,320)"/>
+    <wire from="(170,200)" to="(180,200)"/>
+    <wire from="(170,360)" to="(180,360)"/>
+    <wire from="(170,280)" to="(180,280)"/>
+    <wire from="(170,120)" to="(180,120)"/>
+    <wire from="(330,220)" to="(410,220)"/>
+    <wire from="(1100,270)" to="(1100,310)"/>
+    <wire from="(170,160)" to="(300,160)"/>
+    <comp lib="8" loc="(151,51)" name="Text">
+      <a name="text" val="Entité FETCH"/>
+      <a name="font" val="SansSerif bold 20"/>
     </comp>
-    <comp lib="0" loc="(200,120)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="label" val="instr_data_i"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 10:59:06"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="f1ea75d8-cb36-451d-8bb6-e567d4370869"/>
-      <a name="integrity" val="f81ad1078c0f1abef698518c7ffcee290ea1a41b"/>
-    </comp>
-    <comp lib="0" loc="(230,120)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="instr_data_s"/>
-    </comp>
-    <comp lib="0" loc="(200,200)" name="Pin">
+    <comp lib="0" loc="(170,200)" name="Pin">
       <a name="width" val="16"/>
       <a name="label" val="branch_addr_i"/>
       <a name="radix" val="16"/>
@@ -1537,17 +1759,7 @@ end TCL_Generic;
       <a name="uuid" val="e45df2a3-0ee8-4f17-b3ca-d70a59ddf438"/>
       <a name="integrity" val="1b0dcbaed55da1fed2405bc665b1ee4f9fe09ae7"/>
     </comp>
-    <comp lib="0" loc="(200,240)" name="Pin">
-      <a name="width" val="7"/>
-      <a name="label" val="fetch_control_bus_i"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 11:00:25"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="afa3c11e-5d00-4408-9ff4-59fa041059c1"/>
-      <a name="integrity" val="67825e448e4dfe1862ec6cc9a073f007de1a3877"/>
-    </comp>
-    <comp lib="0" loc="(200,160)" name="Pin">
+    <comp lib="0" loc="(170,160)" name="Pin">
       <a name="width" val="16"/>
       <a name="label" val="PC_pres_i"/>
       <a name="radix" val="16"/>
@@ -1557,15 +1769,43 @@ end TCL_Generic;
       <a name="uuid" val="b8e98a25-1b02-4cfb-a817-c47beaba4a83"/>
       <a name="integrity" val="ce7b0fef8209b33fc92d928524bb84bafb4a2830"/>
     </comp>
-    <comp lib="8" loc="(151,51)" name="Text">
-      <a name="text" val="Entité FETCH"/>
-      <a name="font" val="SansSerif bold 20"/>
+    <comp lib="0" loc="(170,240)" name="Pin">
+      <a name="width" val="7"/>
+      <a name="label" val="fetch_control_bus_i"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 11:00:25"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="afa3c11e-5d00-4408-9ff4-59fa041059c1"/>
+      <a name="integrity" val="67825e448e4dfe1862ec6cc9a073f007de1a3877"/>
     </comp>
-    <comp lib="0" loc="(230,280)" name="Tunnel">
-      <a name="width" val="4"/>
-      <a name="label" val="cpsr_s"/>
+    <comp lib="0" loc="(170,80)" name="Pin">
+      <a name="label" val="fetch_en_i"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="13.02.20 15:08:31"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="9b78bfdd-25ae-49ac-92b9-b169f082bc92"/>
+      <a name="integrity" val="71726468b0e86cce015c687e880a5f94eae0a226"/>
     </comp>
-    <comp lib="0" loc="(200,280)" name="Pin">
+    <comp lib="0" loc="(170,360)" name="Pin">
+      <a name="label" val="rst_i"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 12:16:49"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="c8ded02e-7cd2-4b98-a290-b61bfe96eb9a"/>
+      <a name="integrity" val="fa7ad85388963cd50107c872dfd0a3e736d04b3d"/>
+    </comp>
+    <comp lib="0" loc="(170,320)" name="Pin">
+      <a name="label" val="clk_i"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 12:16:49"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="ae0451e7-cef4-43a0-8191-c28aad928bc8"/>
+      <a name="integrity" val="c1db9c19b0ccdcfa33c5dd537944fc7c9c16485a"/>
+    </comp>
+    <comp lib="0" loc="(170,280)" name="Pin">
       <a name="width" val="4"/>
       <a name="label" val="cpsr_i"/>
       <a name="radix" val="16"/>
@@ -1575,183 +1815,25 @@ end TCL_Generic;
       <a name="uuid" val="5b41978b-a1bf-47f1-a97e-1c1355abca21"/>
       <a name="integrity" val="7b36924dc64536569a7160b4a8eda0bf6de74821"/>
     </comp>
-    <comp lib="0" loc="(200,320)" name="Pin">
-      <a name="label" val="clk_i"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 12:16:49"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="ae0451e7-cef4-43a0-8191-c28aad928bc8"/>
-      <a name="integrity" val="c1db9c19b0ccdcfa33c5dd537944fc7c9c16485a"/>
-    </comp>
-    <comp lib="0" loc="(200,360)" name="Pin">
-      <a name="label" val="rst_i"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 12:16:49"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="c8ded02e-7cd2-4b98-a290-b61bfe96eb9a"/>
-      <a name="integrity" val="fa7ad85388963cd50107c872dfd0a3e736d04b3d"/>
-    </comp>
-    <comp lib="0" loc="(1340,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="0" loc="(170,120)" name="Pin">
       <a name="width" val="16"/>
-      <a name="label" val="PC_fut_o"/>
-      <a name="labelloc" val="east"/>
+      <a name="label" val="instr_data_i"/>
       <a name="radix" val="16"/>
       <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 10:59:28"/>
+      <a name="date" val="16.01.20 10:59:06"/>
       <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="8655bb92-ebe7-4f45-a3e9-e4dfa932d048"/>
-      <a name="integrity" val="fed393049e82c323df0ebb18cf5ab99aec12fcf8"/>
+      <a name="uuid" val="f1ea75d8-cb36-451d-8bb6-e567d4370869"/>
+      <a name="integrity" val="f81ad1078c0f1abef698518c7ffcee290ea1a41b"/>
     </comp>
-    <comp lib="0" loc="(1340,80)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="instr_addr_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 10:59:28"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="7085a5db-ed2b-4171-b890-49c61466e8ac"/>
-      <a name="integrity" val="5a1c5e0f37386884d90ae7f42e798497fb42a318"/>
-    </comp>
-    <comp lib="0" loc="(1320,80)" name="Tunnel">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(330,130)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="instr_addr_s"/>
     </comp>
-    <comp lib="0" loc="(1320,160)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC_fut_s"/>
-    </comp>
-    <comp lib="0" loc="(1320,200)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="branch_s"/>
-    </comp>
-    <comp lib="0" loc="(1340,200)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="branch_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 11:03:41"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="48c264f8-b403-4b84-818f-0ef96c16d086"/>
-      <a name="integrity" val="2f6863d77b6588fc6eecfb29c182db8d130cf955"/>
-    </comp>
-    <comp lib="0" loc="(230,320)" name="Tunnel">
-      <a name="label" val="clk_s"/>
-    </comp>
-    <comp lib="0" loc="(230,360)" name="Tunnel">
-      <a name="label" val="rst_s"/>
-    </comp>
-    <comp lib="0" loc="(200,80)" name="Pin">
-      <a name="label" val="fetch_en_i"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="13.02.20 15:08:31"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="9b78bfdd-25ae-49ac-92b9-b169f082bc92"/>
-      <a name="integrity" val="71726468b0e86cce015c687e880a5f94eae0a226"/>
-    </comp>
-    <comp lib="0" loc="(230,80)" name="Tunnel">
-      <a name="label" val="fetch_en_s"/>
-    </comp>
-    <comp lib="0" loc="(1320,120)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="instr_data_s"/>
-    </comp>
-    <comp lib="0" loc="(1340,120)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="instr_data_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="mim"/>
-      <a name="date" val="16.01.20 10:59:28"/>
-      <a name="version" val="2.14.7.t"/>
-      <a name="uuid" val="9e0e9ba6-0661-464b-b5dd-0dcb69ed4797"/>
-      <a name="integrity" val="a852ac9977423be083d77d9a532f0621fdf90605"/>
-    </comp>
-    <comp lib="0" loc="(380,160)" name="Tunnel">
+    <comp lib="0" loc="(330,160)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="PC_pres_s"/>
     </comp>
-    <comp lib="0" loc="(380,130)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="instr_addr_s"/>
-    </comp>
-    <comp lib="0" loc="(690,90)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(720,90)" name="Tunnel">
-      <a name="label" val="branch_s"/>
-    </comp>
-    <comp lib="2" loc="(1060,200)" name="Multiplexer">
-      <a name="width" val="16"/>
-      <a name="enable" val="false"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="17.03.22 11:49:39"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="9d53ffaa-b878-466c-9800-062902013210"/>
-      <a name="integrity" val="589c49c7234d0dc940654a0e2c809cc08d34ddbd"/>
-    </comp>
-    <comp lib="0" loc="(620,210)" name="Constant">
-      <a name="width" val="16"/>
-      <a name="value" val="0x2"/>
-    </comp>
-    <comp lib="0" loc="(1090,200)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="PC_fut_s"/>
-    </comp>
-    <comp lib="2" loc="(920,210)" name="Multiplexer">
-      <a name="width" val="16"/>
-      <a name="enable" val="false"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="10.03.22 11:21:09"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="3ea8851c-71a1-41ee-9c69-4a0bb403ef8d"/>
-      <a name="integrity" val="2c9a98d0fde38208ffa17df12f0eb266b4430217"/>
-    </comp>
-    <comp lib="0" loc="(860,220)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="branch_addr_s"/>
-    </comp>
-    <comp lib="3" loc="(720,200)" name="Adder">
-      <a name="width" val="16"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="10.03.22 10:48:52"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="4165f184-0528-407f-a757-419ec7d498e2"/>
-      <a name="integrity" val="d8ce7d074d5fb2df4430ac97541669321c231ccb"/>
-    </comp>
-    <comp lib="0" loc="(1040,250)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="fetch_en_s"/>
-    </comp>
-    <comp lib="0" loc="(1020,190)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC_pres_s"/>
-    </comp>
-    <comp lib="0" loc="(610,190)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC_pres_s"/>
-    </comp>
-    <comp lib="0" loc="(700,170)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp loc="(840,320)" name="condition_tester"/>
-    <comp lib="0" loc="(360,240)" name="Splitter">
+    <comp lib="0" loc="(310,240)" name="Splitter">
       <a name="fanout" val="3"/>
       <a name="incoming" val="7"/>
       <a name="owner" val="bdy_tve"/>
@@ -1764,26 +1846,199 @@ end TCL_Generic;
       <a name="bit5" val="2"/>
       <a name="bit6" val="none"/>
     </comp>
-    <comp lib="0" loc="(400,210)" name="Tunnel">
+    <comp lib="0" loc="(180,120)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="instr_data_s"/>
+    </comp>
+    <comp lib="0" loc="(180,360)" name="Tunnel">
+      <a name="label" val="rst_s"/>
+    </comp>
+    <comp lib="0" loc="(180,80)" name="Tunnel">
+      <a name="label" val="fetch_en_s"/>
+    </comp>
+    <comp lib="0" loc="(180,320)" name="Tunnel">
+      <a name="label" val="clk_s"/>
+    </comp>
+    <comp lib="0" loc="(180,280)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="cpsr_s"/>
+    </comp>
+    <comp lib="0" loc="(180,200)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="branch_addr_s"/>
+    </comp>
+    <comp lib="0" loc="(1490,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="label" val="PC_fut_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 10:59:28"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="8655bb92-ebe7-4f45-a3e9-e4dfa932d048"/>
+      <a name="integrity" val="fed393049e82c323df0ebb18cf5ab99aec12fcf8"/>
+    </comp>
+    <comp lib="0" loc="(1490,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="branch_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 11:03:41"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="48c264f8-b403-4b84-818f-0ef96c16d086"/>
+      <a name="integrity" val="2f6863d77b6588fc6eecfb29c182db8d130cf955"/>
+    </comp>
+    <comp lib="0" loc="(1490,80)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="label" val="instr_addr_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 10:59:28"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="7085a5db-ed2b-4171-b890-49c61466e8ac"/>
+      <a name="integrity" val="5a1c5e0f37386884d90ae7f42e798497fb42a318"/>
+    </comp>
+    <comp lib="0" loc="(1490,120)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="label" val="instr_data_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="radix" val="16"/>
+      <a name="owner" val="mim"/>
+      <a name="date" val="16.01.20 10:59:28"/>
+      <a name="version" val="2.14.7.t"/>
+      <a name="uuid" val="9e0e9ba6-0661-464b-b5dd-0dcb69ed4797"/>
+      <a name="integrity" val="a852ac9977423be083d77d9a532f0621fdf90605"/>
+    </comp>
+    <comp lib="0" loc="(1480,160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="PC_fut_s"/>
+    </comp>
+    <comp lib="0" loc="(1480,80)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="instr_addr_s"/>
+    </comp>
+    <comp lib="0" loc="(1480,120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="instr_data_s"/>
+    </comp>
+    <comp lib="0" loc="(360,200)" name="Tunnel">
       <a name="label" val="Jump"/>
     </comp>
-    <comp lib="0" loc="(450,220)" name="Tunnel">
+    <comp lib="0" loc="(410,220)" name="Tunnel">
       <a name="label" val="isCond"/>
     </comp>
-    <comp lib="0" loc="(450,260)" name="Tunnel">
+    <comp lib="0" loc="(360,250)" name="Tunnel">
       <a name="width" val="4"/>
       <a name="label" val="TestCond"/>
     </comp>
-    <comp lib="0" loc="(590,340)" name="Tunnel">
+    <comp lib="2" loc="(1060,110)" name="Multiplexer">
+      <a name="width" val="16"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="17.03.22 11:49:39"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="9d53ffaa-b878-466c-9800-062902013210"/>
+      <a name="integrity" val="589c49c7234d0dc940654a0e2c809cc08d34ddbd"/>
+    </comp>
+    <comp lib="0" loc="(1090,110)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="PC_fut_s"/>
+    </comp>
+    <comp lib="0" loc="(660,120)" name="Constant">
+      <a name="width" val="16"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="0" loc="(860,130)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="branch_addr_s"/>
+    </comp>
+    <comp lib="0" loc="(700,80)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1040,160)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="fetch_en_s"/>
+    </comp>
+    <comp lib="0" loc="(660,100)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="PC_pres_s"/>
+    </comp>
+    <comp lib="0" loc="(790,190)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Jump"/>
+    </comp>
+    <comp lib="0" loc="(920,210)" name="Tunnel">
+      <a name="label" val="branch_s"/>
+    </comp>
+    <comp lib="2" loc="(920,120)" name="Multiplexer">
+      <a name="width" val="16"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="10.03.22 11:21:09"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="3ea8851c-71a1-41ee-9c69-4a0bb403ef8d"/>
+      <a name="integrity" val="2c9a98d0fde38208ffa17df12f0eb266b4430217"/>
+    </comp>
+    <comp lib="3" loc="(720,110)" name="Adder">
+      <a name="width" val="16"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="10.03.22 10:48:52"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="4165f184-0528-407f-a757-419ec7d498e2"/>
+      <a name="integrity" val="d8ce7d074d5fb2df4430ac97541669321c231ccb"/>
+    </comp>
+    <comp lib="1" loc="(880,210)" name="AND Gate">
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="17.03.22 12:06:55"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="e977b10d-250a-48f8-ba77-098a9b1f8655"/>
+      <a name="integrity" val="5169f82542433ff595ce43f0c5819b695f96e8fc"/>
+    </comp>
+    <comp lib="0" loc="(1020,100)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="PC_pres_s"/>
+    </comp>
+    <comp lib="0" loc="(710,330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="isCond"/>
+    </comp>
+    <comp lib="0" loc="(710,290)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="fetch_en_s"/>
+    </comp>
+    <comp lib="0" loc="(700,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="cpsr_s"/>
+    </comp>
+    <comp lib="0" loc="(850,330)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="4"/>
       <a name="label" val="TestCond"/>
     </comp>
-    <comp lib="0" loc="(580,320)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="isCond"/>
+    <comp lib="1" loc="(770,310)" name="AND Gate">
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="17.03.22 12:06:55"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="8e60f141-15a3-45d2-8e2c-4209de0ebbcf"/>
+      <a name="integrity" val="f9e2f3d0bb27d4b038cf5acf73ac9c09602afdbc"/>
     </comp>
-    <comp lib="0" loc="(490,430)" name="Splitter">
+    <comp lib="0" loc="(730,420)" name="Splitter">
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="owner" val="bdy_tve"/>
@@ -1792,22 +2047,10 @@ end TCL_Generic;
       <a name="uuid" val="76a6de24-7a67-495e-83f9-26076bea4e09"/>
       <a name="integrity" val="d2762d4ecda407d848996ac33b2911c41338dc9d"/>
     </comp>
-    <comp lib="0" loc="(460,430)" name="Tunnel">
+    <comp loc="(1070,310)" name="condition_tester"/>
+    <comp lib="0" loc="(1480,200)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="cpsr_s"/>
-    </comp>
-    <comp lib="1" loc="(900,250)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="17.03.22 12:06:55"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="e977b10d-250a-48f8-ba77-098a9b1f8655"/>
-      <a name="integrity" val="5169f82542433ff595ce43f0c5819b695f96e8fc"/>
-    </comp>
-    <comp lib="0" loc="(920,330)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Jump"/>
+      <a name="label" val="branch_s"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
@@ -3984,13 +4227,13 @@ end TCL_Generic;
     <wire from="(1330,310)" to="(1340,310)"/>
     <wire from="(1330,350)" to="(1340,350)"/>
     <wire from="(1330,390)" to="(1340,390)"/>
-    <wire from="(1330,590)" to="(1340,590)"/>
-    <wire from="(1330,630)" to="(1340,630)"/>
-    <wire from="(1330,670)" to="(1340,670)"/>
-    <wire from="(1330,430)" to="(1340,430)"/>
-    <wire from="(1330,470)" to="(1340,470)"/>
-    <wire from="(1330,510)" to="(1340,510)"/>
     <wire from="(1330,550)" to="(1340,550)"/>
+    <wire from="(1330,590)" to="(1340,590)"/>
+    <wire from="(1330,670)" to="(1340,670)"/>
+    <wire from="(1330,630)" to="(1340,630)"/>
+    <wire from="(1330,510)" to="(1340,510)"/>
+    <wire from="(1330,470)" to="(1340,470)"/>
+    <wire from="(1330,430)" to="(1340,430)"/>
     <wire from="(910,50)" to="(910,90)"/>
     <wire from="(910,90)" to="(910,130)"/>
     <wire from="(310,350)" to="(340,350)"/>
@@ -7370,9 +7613,8 @@ end TCL_Generic;
     <wire from="(600,230)" to="(600,260)"/>
     <wire from="(630,80)" to="(630,100)"/>
     <wire from="(590,220)" to="(590,240)"/>
-    <wire from="(220,290)" to="(250,290)"/>
-    <wire from="(220,190)" to="(250,190)"/>
-    <wire from="(220,330)" to="(250,330)"/>
+    <wire from="(220,230)" to="(250,230)"/>
+    <wire from="(220,250)" to="(250,250)"/>
     <wire from="(220,350)" to="(250,350)"/>
     <wire from="(220,370)" to="(250,370)"/>
     <wire from="(220,390)" to="(250,390)"/>
@@ -7381,12 +7623,13 @@ end TCL_Generic;
     <wire from="(220,450)" to="(250,450)"/>
     <wire from="(220,470)" to="(250,470)"/>
     <wire from="(220,490)" to="(250,490)"/>
+    <wire from="(220,330)" to="(250,330)"/>
     <wire from="(220,310)" to="(250,310)"/>
-    <wire from="(220,170)" to="(250,170)"/>
-    <wire from="(220,230)" to="(250,230)"/>
-    <wire from="(220,270)" to="(250,270)"/>
-    <wire from="(220,250)" to="(250,250)"/>
+    <wire from="(220,290)" to="(250,290)"/>
+    <wire from="(220,190)" to="(250,190)"/>
     <wire from="(220,210)" to="(250,210)"/>
+    <wire from="(220,270)" to="(250,270)"/>
+    <wire from="(220,170)" to="(250,170)"/>
     <wire from="(220,150)" to="(250,150)"/>
     <wire from="(220,130)" to="(250,130)"/>
     <wire from="(220,110)" to="(250,110)"/>
