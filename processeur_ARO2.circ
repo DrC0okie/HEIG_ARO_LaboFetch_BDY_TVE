@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="f3d46973b0fb0db5377972f7fbf828ea2bbd612f" source="2.16.8.t" version="1.0">
+<project integrity="39c12db8421978a242bb4c5c082c7b859d32f122" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -961,14 +961,16 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(930,680)" to="(950,680)"/>
     <wire from="(1050,290)" to="(1050,340)"/>
     <wire from="(990,580)" to="(1010,580)"/>
+    <wire from="(660,360)" to="(690,360)"/>
     <wire from="(720,660)" to="(750,660)"/>
     <wire from="(350,580)" to="(370,580)"/>
     <wire from="(470,580)" to="(490,580)"/>
+    <wire from="(320,400)" to="(330,400)"/>
+    <wire from="(320,360)" to="(330,360)"/>
     <wire from="(990,640)" to="(1040,640)"/>
     <wire from="(950,680)" to="(950,690)"/>
     <wire from="(700,710)" to="(890,710)"/>
     <wire from="(370,580)" to="(370,600)"/>
-    <wire from="(450,420)" to="(450,440)"/>
     <wire from="(1070,630)" to="(1130,630)"/>
     <wire from="(910,90)" to="(950,90)"/>
     <wire from="(910,50)" to="(950,50)"/>
@@ -984,7 +986,6 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(1010,580)" to="(1010,620)"/>
     <wire from="(1130,620)" to="(1140,620)"/>
     <wire from="(1120,650)" to="(1130,650)"/>
-    <wire from="(480,360)" to="(690,360)"/>
     <wire from="(510,550)" to="(530,550)"/>
     <wire from="(370,600)" to="(450,600)"/>
     <wire from="(1420,250)" to="(1450,250)"/>
@@ -997,13 +998,12 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(580,800)" to="(580,810)"/>
     <wire from="(710,610)" to="(900,610)"/>
     <wire from="(1300,650)" to="(1340,650)"/>
+    <wire from="(360,420)" to="(360,440)"/>
     <wire from="(650,400)" to="(690,400)"/>
     <wire from="(650,320)" to="(690,320)"/>
     <wire from="(570,750)" to="(570,780)"/>
-    <wire from="(1280,620)" to="(1280,630)"/>
     <wire from="(950,610)" to="(950,630)"/>
     <wire from="(610,780)" to="(720,780)"/>
-    <wire from="(1150,610)" to="(1150,620)"/>
     <wire from="(350,540)" to="(390,540)"/>
     <wire from="(990,320)" to="(1100,320)"/>
     <wire from="(720,660)" to="(720,680)"/>
@@ -1016,7 +1016,6 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(370,580)" to="(390,580)"/>
     <wire from="(1050,340)" to="(1210,340)"/>
     <wire from="(1170,640)" to="(1260,640)"/>
-    <wire from="(340,380)" to="(420,380)"/>
     <wire from="(560,780)" to="(570,780)"/>
     <wire from="(580,800)" to="(590,800)"/>
     <wire from="(990,380)" to="(1040,380)"/>
@@ -1034,13 +1033,13 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(950,610)" to="(970,610)"/>
     <wire from="(950,690)" to="(970,690)"/>
     <wire from="(930,630)" to="(950,630)"/>
+    <wire from="(390,360)" to="(420,360)"/>
     <wire from="(1010,620)" to="(1040,620)"/>
     <wire from="(630,650)" to="(630,750)"/>
     <wire from="(600,440)" to="(690,440)"/>
     <wire from="(470,580)" to="(470,620)"/>
-    <wire from="(410,400)" to="(420,400)"/>
-    <wire from="(410,360)" to="(420,360)"/>
     <wire from="(990,360)" to="(1120,360)"/>
+    <wire from="(250,380)" to="(330,380)"/>
     <wire from="(1420,270)" to="(1450,270)"/>
     <wire from="(1420,230)" to="(1450,230)"/>
     <comp lib="0" loc="(200,120)" name="Pin">
@@ -1161,19 +1160,6 @@ d00c 13*0 2004 2180 e7cc
       <a name="uuid" val="bd211b46-533e-44df-a517-ea9d5312e682"/>
       <a name="integrity" val="f57668837e32509d6adc1608adabe1831b5a9d82"/>
     </comp>
-    <comp lib="0" loc="(450,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="rst_s"/>
-    </comp>
-    <comp lib="0" loc="(410,360)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC_Fut"/>
-    </comp>
-    <comp lib="8" loc="(454,309)" name="Text">
-      <a name="text" val="Program counter"/>
-      <a name="font" val="SansSerif plain 12"/>
-    </comp>
     <comp lib="0" loc="(1050,680)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="Jump_BEQ"/>
@@ -1228,10 +1214,6 @@ d00c 13*0 2004 2180 e7cc
       <a name="bit15" val="1"/>
     </comp>
     <comp loc="(990,320)" name="fetch"/>
-    <comp lib="0" loc="(410,400)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="clk_s"/>
-    </comp>
     <comp lib="0" loc="(660,340)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="16"/>
@@ -1244,15 +1226,6 @@ d00c 13*0 2004 2180 e7cc
     <comp lib="0" loc="(930,630)" name="Constant">
       <a name="width" val="4"/>
       <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="4" loc="(420,330)" name="Register">
-      <a name="width" val="16"/>
-      <a name="label" val="PC"/>
-      <a name="owner" val="bdy_tve"/>
-      <a name="date" val="10.03.22 10:40:21"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="2a8f6929-6f34-4de2-9245-24b210c67fcd"/>
-      <a name="integrity" val="e9e0cbade3a204cd0fa0061df1b0afcb0269e949"/>
     </comp>
     <comp lib="0" loc="(1120,650)" name="Constant">
       <a name="width" val="16"/>
@@ -1316,7 +1289,6 @@ d00c 13*0 2004 2180 e7cc
       <a name="uuid" val="138df9f2-2f16-46ac-bea2-1803850918ea"/>
       <a name="integrity" val="f2b255517fe7398f88b8ec8f858b595a4c2d4f71"/>
     </comp>
-    <comp lib="0" loc="(340,380)" name="Constant"/>
     <comp lib="0" loc="(1100,320)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="instr_addr_s"/>
@@ -1642,14 +1614,6 @@ d00c 13*0 2004 2180 e7cc
       <a name="text" val="Calcul adresse de saut"/>
       <a name="font" val="SansSerif plain 12"/>
     </comp>
-    <comp lib="0" loc="(1280,620)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1150,610)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
     <comp lib="0" loc="(1040,380)" name="Probe">
       <a name="facing" val="west"/>
       <a name="owner" val="bdy_tve"/>
@@ -1657,6 +1621,42 @@ d00c 13*0 2004 2180 e7cc
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="c846dd27-ce79-4656-9d55-441ae3ff1c17"/>
       <a name="integrity" val="789bae8cc1d54c330224600a2caf2992004d746d"/>
+    </comp>
+    <comp lib="4" loc="(330,330)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="PC"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="10.03.22 10:40:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="2a8f6929-6f34-4de2-9245-24b210c67fcd"/>
+      <a name="integrity" val="e9e0cbade3a204cd0fa0061df1b0afcb0269e949"/>
+    </comp>
+    <comp lib="0" loc="(320,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="PC_Fut"/>
+    </comp>
+    <comp lib="0" loc="(320,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_s"/>
+    </comp>
+    <comp lib="0" loc="(250,380)" name="Constant"/>
+    <comp lib="8" loc="(364,309)" name="Text">
+      <a name="text" val="Program counter"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(360,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="rst_s"/>
+    </comp>
+    <comp lib="0" loc="(420,360)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="PC_pres"/>
+    </comp>
+    <comp lib="0" loc="(660,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="PC_pres"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
@@ -3329,12 +3329,12 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(840,550)" to="(950,550)"/>
     <wire from="(300,870)" to="(530,870)"/>
     <wire from="(950,220)" to="(970,220)"/>
-    <wire from="(520,510)" to="(540,510)"/>
-    <wire from="(520,350)" to="(540,350)"/>
-    <wire from="(520,670)" to="(540,670)"/>
     <wire from="(520,590)" to="(540,590)"/>
     <wire from="(520,430)" to="(540,430)"/>
     <wire from="(520,270)" to="(540,270)"/>
+    <wire from="(520,510)" to="(540,510)"/>
+    <wire from="(520,350)" to="(540,350)"/>
+    <wire from="(520,670)" to="(540,670)"/>
     <wire from="(1900,300)" to="(1910,300)"/>
     <wire from="(940,130)" to="(940,230)"/>
     <wire from="(780,1070)" to="(870,1070)"/>
@@ -4147,11 +4147,11 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(1330,290)" to="(1340,290)"/>
     <wire from="(1330,370)" to="(1340,370)"/>
     <wire from="(1330,570)" to="(1340,570)"/>
+    <wire from="(1330,650)" to="(1340,650)"/>
+    <wire from="(1330,610)" to="(1340,610)"/>
     <wire from="(1330,530)" to="(1340,530)"/>
     <wire from="(1330,490)" to="(1340,490)"/>
     <wire from="(1330,450)" to="(1340,450)"/>
-    <wire from="(1330,650)" to="(1340,650)"/>
-    <wire from="(1330,610)" to="(1340,610)"/>
     <wire from="(260,840)" to="(290,840)"/>
     <wire from="(310,250)" to="(340,250)"/>
     <wire from="(260,440)" to="(290,440)"/>
@@ -4220,20 +4220,20 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(300,130)" to="(340,130)"/>
     <wire from="(1330,270)" to="(1340,270)"/>
     <wire from="(1330,230)" to="(1340,230)"/>
-    <wire from="(1330,190)" to="(1340,190)"/>
     <wire from="(1330,150)" to="(1340,150)"/>
-    <wire from="(1330,70)" to="(1340,70)"/>
+    <wire from="(1330,190)" to="(1340,190)"/>
     <wire from="(1330,110)" to="(1340,110)"/>
+    <wire from="(1330,70)" to="(1340,70)"/>
     <wire from="(1330,310)" to="(1340,310)"/>
-    <wire from="(1330,350)" to="(1340,350)"/>
     <wire from="(1330,390)" to="(1340,390)"/>
-    <wire from="(1330,550)" to="(1340,550)"/>
-    <wire from="(1330,590)" to="(1340,590)"/>
-    <wire from="(1330,670)" to="(1340,670)"/>
-    <wire from="(1330,630)" to="(1340,630)"/>
+    <wire from="(1330,430)" to="(1340,430)"/>
     <wire from="(1330,510)" to="(1340,510)"/>
     <wire from="(1330,470)" to="(1340,470)"/>
-    <wire from="(1330,430)" to="(1340,430)"/>
+    <wire from="(1330,350)" to="(1340,350)"/>
+    <wire from="(1330,590)" to="(1340,590)"/>
+    <wire from="(1330,550)" to="(1340,550)"/>
+    <wire from="(1330,670)" to="(1340,670)"/>
+    <wire from="(1330,630)" to="(1340,630)"/>
     <wire from="(910,50)" to="(910,90)"/>
     <wire from="(910,90)" to="(910,130)"/>
     <wire from="(310,350)" to="(340,350)"/>
@@ -7613,22 +7613,10 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(600,230)" to="(600,260)"/>
     <wire from="(630,80)" to="(630,100)"/>
     <wire from="(590,220)" to="(590,240)"/>
-    <wire from="(220,230)" to="(250,230)"/>
     <wire from="(220,250)" to="(250,250)"/>
-    <wire from="(220,350)" to="(250,350)"/>
     <wire from="(220,370)" to="(250,370)"/>
-    <wire from="(220,390)" to="(250,390)"/>
-    <wire from="(220,410)" to="(250,410)"/>
-    <wire from="(220,430)" to="(250,430)"/>
-    <wire from="(220,450)" to="(250,450)"/>
-    <wire from="(220,470)" to="(250,470)"/>
-    <wire from="(220,490)" to="(250,490)"/>
-    <wire from="(220,330)" to="(250,330)"/>
-    <wire from="(220,310)" to="(250,310)"/>
-    <wire from="(220,290)" to="(250,290)"/>
+    <wire from="(220,230)" to="(250,230)"/>
     <wire from="(220,190)" to="(250,190)"/>
-    <wire from="(220,210)" to="(250,210)"/>
-    <wire from="(220,270)" to="(250,270)"/>
     <wire from="(220,170)" to="(250,170)"/>
     <wire from="(220,150)" to="(250,150)"/>
     <wire from="(220,130)" to="(250,130)"/>
@@ -7637,6 +7625,18 @@ d00c 13*0 2004 2180 e7cc
     <wire from="(220,70)" to="(250,70)"/>
     <wire from="(220,30)" to="(250,30)"/>
     <wire from="(220,50)" to="(250,50)"/>
+    <wire from="(220,210)" to="(250,210)"/>
+    <wire from="(220,350)" to="(250,350)"/>
+    <wire from="(220,330)" to="(250,330)"/>
+    <wire from="(220,310)" to="(250,310)"/>
+    <wire from="(220,290)" to="(250,290)"/>
+    <wire from="(220,270)" to="(250,270)"/>
+    <wire from="(220,390)" to="(250,390)"/>
+    <wire from="(220,410)" to="(250,410)"/>
+    <wire from="(220,430)" to="(250,430)"/>
+    <wire from="(220,450)" to="(250,450)"/>
+    <wire from="(220,470)" to="(250,470)"/>
+    <wire from="(220,490)" to="(250,490)"/>
     <wire from="(520,500)" to="(540,500)"/>
     <wire from="(1250,220)" to="(1260,220)"/>
     <wire from="(1250,280)" to="(1260,280)"/>
